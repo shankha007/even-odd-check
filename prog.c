@@ -1,15 +1,15 @@
 #include<stdio.h>
 
 void oddEvenCheck(int num) {
-  if (num % 2 == 0) {
+  if (num % 2 == 0) 
     printf("EVEN");
-  }
-  else if (num % 2 != 0) {
+  
+  else if (num % 2 != 0) 
     printf("ODD");
-  }
-  else {
-    printf("This Block is only for SHOW :P");
-  }
+  
+  else 
+    printf("If this line ever executes , I am leaving Computer Science!");
+  
 }
 
 void main() {
